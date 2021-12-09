@@ -1,0 +1,6 @@
+version: '3'
+services:
+   docker1ap:
+      build: .
+      ports:
+         - "41062:80"
